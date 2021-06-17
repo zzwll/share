@@ -8,6 +8,8 @@ if(domain == 'www.zzwll.cn'){
     document.write('<div style="display: none;"><script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1279416210&web_id=1279416210"><\/script><\/div>');
 }else if(domain == 'tools.zzwll.cn'){
     document.write('<div style="display: none;"><script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279416211&web_id=1279416211"><\/script><\/div>');
+}else if(domain == 'ds.zzwll.cn'){
+    document.write('<div style="display: none;"><script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1280023540&web_id=1280023540"><\/script><\/div>');
 }else{
     console.log('你的网站没有加入统计！');
 }
@@ -26,10 +28,10 @@ if(domain == 'www.zzwll.cn'){
     s.parentNode.insertBefore(bp, s);
 })();
 //自动提交360收录
-/*(function(){
+(function(){
 var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?c7a3e9f8f188812f621998e5690bb583":"https://jspassport.ssl.qhimg.com/11.0.1.js?c7a3e9f8f188812f621998e5690bb583";
 document.write('<script src="' + src + '" id="sozz"><\/script>');
-})();*/
+})();
 //谷歌广告
 /*setTimeout(function() {
     let script = document.createElement("script");
