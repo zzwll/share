@@ -10,6 +10,8 @@ if(domain == 'www.zzwll.cn'){
     document.write('<div style="display: none;"><script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279416211&web_id=1279416211"><\/script><\/div>');
 }else if(domain == 'ds.zzwll.cn'){
     document.write('<div style="display: none;"><script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1280023540&web_id=1280023540"><\/script><\/div>');
+}else if(domain == 'idc.zzwll.cn'){
+    document.write('<div style="display: none;"><script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1280083914&web_id=1280083914"><\/script><\/div>');
 }else{
     console.log('你的网站没有加入统计！');
 }
